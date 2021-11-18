@@ -8,7 +8,7 @@ import javax.ws.rs.Produces;
 @Path("/helloword")
 public class ResourceHelloWord extends HttpServlet {
 	
-	// http://localhost:8080/TestRestFull/helloword
+	// http://localhost:8080/WebServiceHW/helloword
 	@GET
 	@Produces("text/plan")
 	public String exibir() {
